@@ -1,0 +1,38 @@
+.container{
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 30px;
+ border-radius: 6px;
+ 
+
+}
+body{
+  background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+label {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* For medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+  label {
+    font-size: 18px;
+  }
+}
+
+/* For small devices (phones, 576px and below) */
+@media (max-width: 576px) {
+  label {
+    font-size: 16px;
+  }
+}
+
+input{
+  padding: 5px ;
+  border-radius: 5px;
+  border: 1px solid rgba(148, 187, 233, 1);
+  margin-top: 5px;
+  width: 100%;
+}
