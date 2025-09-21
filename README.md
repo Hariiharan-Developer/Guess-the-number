@@ -1,12 +1,29 @@
-# React + Vite
+🎮 Guess the Number Game – React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small fun project built with React to practice and understand core concepts of React.
+The game generates a random number between 1–10 and the user has to guess it.
+After each guess, the app shows feedback like:
 
-Currently, two official plugins are available:
+⬆ Too Low → if the guess is smaller
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⬇ Too High → if the guess is larger
 
-## Expanding the ESLint configuration
+🎉 Yippee! Correct → if the guess matches
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It also includes a Play Again (Reset) button to restart the game with a new random number.
+
+----
+
+🚀 React Core Concepts Practiced
+
+- useState Hook → to manage game states (secret number, user input, result message).
+
+- Event Handling → handling button clicks and input changes.
+
+- Conditional Rendering → showing different result messages (higher/lower/correct).
+
+- JS Logic inside React → random number generation, comparisons.
+
+- Page Refresh / State Reset → using reset button with setState and optional window.location.reload().
+
+- Responsive Styling → applied CSS/Bootstrap for a clean UI.
