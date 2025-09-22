@@ -8,7 +8,7 @@ const [number,setNumber] = useState('')
 
  const handleSubmit =(e)=>{
       setNumber(e.target.value)
-      number('')
+      
     }
   return (
     <>
